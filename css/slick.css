@@ -251,4 +251,11 @@ button:focus{
         background-color: #f9cf47;
         padding: 5px 6px;
     }
+        .our-team{
+        margin: 2px;
+
+    }
+    .our-team .pic {
+        margin-bottom: 40px;
+    }
 }
