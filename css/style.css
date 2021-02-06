@@ -485,6 +485,9 @@ footer p:hover {
         width: 300px;
         margin:  0 auto;
     }
+        #write{
+        z-index: 0;
+    }
 
 }
 
