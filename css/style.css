@@ -516,11 +516,4 @@ footer p:hover {
     #write{
         z-index: 0;
     }
-    .our-team{
-        margin: 2px;
-
-    }
-    .our-team .pic {
-        margin-bottom: 40px;
-    }
 }
