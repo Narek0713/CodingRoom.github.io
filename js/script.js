@@ -1,4 +1,3 @@
-$('body').css('overflow','hidden');
 $(document).ready(function () {
   // ------------------window load------------
 
