@@ -1,24 +1,14 @@
 $('body').css('overflow','hidden');
 $(document).ready(function () {
   // ------------------window load------------
-   $(window).load(function () {
-    var counter = 0;
-    var c = 0;
-    var i = setInterval(() => {
-      $('.loading-page .counter h1').html(c + '%');
-      $('.loading-page .counter hr').css("width",c+'%');
-      counter++;
-      c++;
-      if(counter == 101){
-        clearInterval(i);
-        $(".loading-page").fadeOut();
-        $('body').css('overflow','auto');
-      }
-    }, 20); 
-    
-  }); 
 
- 
+  $('document').ready(function(e) {
+    setTimeout(() => {
+        $(".loader").fadeOut("slow");
+    }, 500);
+    
+    
+   });
 
   // -----------------phone-------------------
   $(function () {
