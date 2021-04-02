@@ -553,7 +553,7 @@ h4 {
     position: absolute;
     background-color: #00000059;
     left:calc((100% - 270px) / 2 );
-    top: calc((100vh - 200px) / 2);
+    top: 175px;
     border-radius: 10px;
     padding: 20px;
 
